@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Navbar, Home } from "./components"
+import { Navbar, Home, QRComponent } from "./components"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/qr-code" element={<QRComponent/>} />
       </Routes>
     </Router>
   );

@@ -16,10 +16,10 @@ const Home = () => {
             {/* CTA buttons */}
             <div className='flex flex-col sm:flex-row gap-4 mt-8 px-4 w-full justify-center'>
                 <Link
-                    to='/'
+                    to='/qr-code'
                     className='inline-flex items-center justify-center w-full sm:w-fit px-10 py-3 border border-transparent text-base font-medium rounded-md text-white bg-slate-800 hover:bg-slate-900'
                 >
-                    Get started
+                    Get QR Code
                 </Link>
                 < Link
                     to='/'
